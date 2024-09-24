@@ -1,8 +1,18 @@
 ﻿using ExemploFundamentos.Models;
 
-    DateTime dataAtual = DateTime.Now.AddMinutes(1);
 
-    Console.WriteLine($"Data e hora atual: {dataAtual}");
+Calculadora calcular = new Calculadora();
+
+calcular.Somar(10, 2);
+calcular.Subtrair(10, 2);
+calcular.Multiplicar(10, 2);
+calcular.Dividir(10, 2);
+
+
+
+// DateTime dataAtual = DateTime.Now.AddMinutes(1);
+
+// Console.WriteLine($"Data e hora atual: {dataAtual}");
 
 
 // string apresentacao = "Olá, seja bem vindo";
