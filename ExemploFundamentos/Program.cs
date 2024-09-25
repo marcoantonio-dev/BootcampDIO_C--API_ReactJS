@@ -1,13 +1,27 @@
 ﻿using ExemploFundamentos.Models;
 
 
+int numero = 10;
+Console.WriteLine(numero);
+Console.WriteLine("Incrementando o 10");
+numero++;
+Console.WriteLine(numero);
+
+Console.WriteLine("Decrementando o 11");
+numero--;
+Console.WriteLine(numero);
+
 Calculadora calcular = new Calculadora();
+calcular.RaizQuadrada(9);
 
-calcular.Somar(10, 2);
-calcular.Subtrair(10, 2);
-calcular.Multiplicar(10, 2);
-calcular.Dividir(10, 2);
-
+// calcular.Somar(10, 2);
+// calcular.Subtrair(10, 2);
+// calcular.Multiplicar(10, 2);
+// calcular.Dividir(10, 2);
+// calcular.Potencia(3,3);
+// calcular.Seno(30);
+// calcular.Coseno(30);
+// calcular.Tangente(30);
 
 
 // DateTime dataAtual = DateTime.Now.AddMinutes(1);
